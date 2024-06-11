@@ -1,0 +1,14 @@
+airbnb_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: piujezp-jv31098
+      user: dbt 
+      password: dbtPassword123
+      role: transform
+      warehouse: COMPUTE_WH
+      database: AIRBNB
+      schema: RAW
+      threads: 1
+
