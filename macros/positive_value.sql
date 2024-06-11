@@ -1,3 +1,4 @@
+---- macro para valores positivos ---
 {% test positive_value(model, column_name) %}
 
 SELECT
